@@ -42,11 +42,15 @@
             </div>
     </div>
 
-    <div class="col-md-3 ml-md-5 col-sm-12 bg-white p-4" style="height:120px !important
+    <!-- <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
         <div class="form-group">
-            <label>Edit</label>
             <input type="submit" class="form-control btn btn-primary" value="Edit">
         </div>
+    </div> -->
+    <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+        <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Edit
+        </button>
     </div>
     </form>
 @endsection

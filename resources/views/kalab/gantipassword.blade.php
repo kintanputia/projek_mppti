@@ -96,7 +96,7 @@
    
      <div class="mt-5 md:mt-0 md:col-span-2">
      @foreach($data_user as $data_user)
-       <form action="/gantipasswordaslab/{{ $data_user->id }}/updatepassaslab" method="POST">
+       <form action="/gantipasswordkalab/{{ $data_user->id }}/updatepasskalab" method="POST">
                
       
          <div class="shadow overflow-hidden sm:rounded-md">

@@ -26,7 +26,7 @@
 <div class="px-4 py-5 bg-white sm:p-6"> 
     <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">
     {{-- print nama tahapannya --}}
-    <b>Daftar Nilai Tahapan </b>
+    <b>Daftar Nilai Tahapan {{ $jenis->nama_seleksi }}</b>
     </h3><hr>
 
     <div class="px-3 py-4 flex justify-center">
